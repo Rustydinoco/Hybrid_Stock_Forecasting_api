@@ -12,19 +12,20 @@
 ![Hero Shot Dashboard](assets/Dashboard.png)
 ## 💡 Project Background
 
-The inspiration for this project stemmed from identifying a specific **research gap** in modern Financial AI.
+The motivation behind this project lies in addressing the **Efficiency-Accuracy Trade-off** in modern Financial AI.
 
-While recent trends focus heavily on **Large Language Models (LLMs)** combined with Retrieval-Augmented Forecasting (RAF), I noticed that applying LLMs to pure numerical time-series data can be computationally expensive and sometimes overkill.
+With the rise of Large Language Models (LLMs) and deep transformers, there is a growing trend to apply massive, resource-intensive models to every problem. However, for numerical time-series data, this often leads to diminishing returns—where a slight increase in accuracy costs a massive amount of computational power.
 
-**The Gap:**
-Most "Retrieval" systems are designed for text (RAG). There is limited exploration on efficiently applying the **Retrieval-Augmented** concept to lightweight, numerical Machine Learning models.
+**The Research Gap:**
+There is a need to prove that **lightweight, interpretable models** can achieve accuracy levels comparable to heavy deep learning models, provided they are architected correctly with context-awareness.
 
 **The Solution:**
-Instead of using heavy LLMs, this project proposes a specialized **Hybrid Engine**:
-1.  **XGBoost (The Logic):** An optimized gradient boosting model to handle 30+ technical indicators.
-2.  **RAF Algorithm (The Memory):** A custom vector-search mechanism that finds historical "Dejavu" moments without the overhead of an LLM.
+This project implements a **Hybrid Strategy** that combines the speed of classical ML with the "memory" capabilities usually found in GenAI:
+1.  **XGBoost:** Highly optimized for numerical efficiency.
+2.  **RAF (Retrieval-Augmented Forecasting):** A lightweight mechanism to inject historical context (similar to RAG in LLMs) without the overhead of a Neural Network.
 
-This approach aims to prove that we can achieve "Context-Aware" predictions efficiently without relying on Generative AI.
+**The Goal:**
+To demonstrate that we do not always need "Big AI" to solve complex problems. By focusing on smart feature engineering and pattern retrieval, this model aims to deliver **competitive accuracy with a fraction of the computational cost**.
 ---
 
 ## 🚀 Key Features
