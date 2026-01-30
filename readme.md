@@ -46,7 +46,7 @@ Users can view current prices, AI predictions, and RAF signals (Neutral/Positive
 
 ### 2. Backend API (Swagger UI)
 Auto-generated API documentation built with FastAPI for endpoint testing.
-![API Docs](assets/swagger.png.png)
+![API Docs](assets/swagger.png)
 
 ---
 
