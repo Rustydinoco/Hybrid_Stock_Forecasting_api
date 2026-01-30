@@ -8,8 +8,6 @@
 
 **A Machine Learning experiment combining Technical Analysis (XGBoost) with Historical Pattern Recognition (Retrieval-Augmented Forecasting / RAF).**
 
-
-![Hero Shot Dashboard](assets/Dashboard.png)
 ## 💡 Project Background
 
 The motivation behind this project lies in addressing the **Efficiency-Accuracy Trade-off** in modern Financial AI.
@@ -67,6 +65,8 @@ Notice how the model (Red) successfully identifies the **major downtrend** start
 ---
 
 ## 📸 Screenshots
+
+![Hero Shot Dashboard](assets/Dashboard.png)
 
 ### 1. Analysis Dashboard
 Users can view current prices, AI predictions, and RAF signals (Neutral/Positive/Negative).
