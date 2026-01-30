@@ -66,8 +66,6 @@ Notice how the model (Red) successfully identifies the **major downtrend** start
 
 ## 📸 Screenshots
 
-![Hero Shot Dashboard](assets/Dashboard.png)
-
 ### 1. Analysis Dashboard
 Users can view current prices, AI predictions, and RAF signals (Neutral/Positive/Negative).
 ![Feature](assets/feature.png)
