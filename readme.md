@@ -16,7 +16,7 @@ The motivation behind this project lies in addressing the **Efficiency-Accuracy 
 
 With the rise of Large Language Models (LLMs) and deep transformers, there is a growing trend to apply massive, resource-intensive models to every problem. However, for numerical time-series data, this often leads to diminishing returns—where a slight increase in accuracy costs a massive amount of computational power.
 
-**The Research Gap:**
+**Research Gap:**
 There is a need to prove that **lightweight, interpretable models** can achieve accuracy levels comparable to heavy deep learning models, provided they are architected correctly with context-awareness.
 
 **The Solution:**
@@ -24,10 +24,11 @@ This project implements a **Hybrid Strategy** that combines the speed of classic
 1.  **XGBoost:** Highly optimized for numerical efficiency.
 2.  **RAF (Retrieval-Augmented Forecasting):** A lightweight mechanism to inject historical context (similar to RAG in LLMs) without the overhead of a Neural Network.
 
-**The Goal:**
-To demonstrate that we do not always need "Big AI" to solve complex problems. By focusing on smart feature engineering and pattern retrieval, this model aims to deliver **competitive accuracy with a fraction of the computational cost**.
----
+**The Goal**
+To demonstrate that we do not always need "Big AI" to solve complex problem. By focusing on smart feature engineering and pattern retrieval, this model aims to deliver **competitive accuracy with a fraction of the computational cost**.
 
+
+---
 ## 🚀 Key Features
 
 * **🧠 Hybrid Intelligence:** The final prediction is influenced by both technical calculations and historical analysis.
