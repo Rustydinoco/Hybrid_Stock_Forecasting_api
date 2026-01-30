@@ -1,0 +1,12 @@
+sklearn
+xgboost
+pandas
+streamlit
+requests
+fastapi
+uvicorn
+pydantic
+numpy
+yfinance
+matplotlib
+os
