@@ -79,3 +79,41 @@ Auto-generated API documentation built with FastAPI for endpoint testing.
 ├── Dockerfile          # Container configuration
 ├── requirements.txt    # Python dependencies
 └── README.md           # Project documentation
+```
+---
+
+## How to Run (Local)
+
+1.  **Clone the Repository**
+    ```bash
+    git clone [https://github.com/Rustydinoco/Hybrid_Stock_Forecasting_api](https://github.com/Rustydinoco/Hybrid_Stock_Forecasting_api)
+    cd Hybrid_Stock_Forecasting_api
+    ```
+
+2.  **Install Dependencies**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3.  **Run Backend (Terminal 1) The server will start at http://localhost:8000.**
+    ```bash
+    uvicorn src.api:app --reload
+    ```
+     *Server will start at `http://127.0.0.1:8000`*
+
+4.  **Run Frontend (Terminal 2) The dashboard will open in your default browser.**
+    ```bash
+    streamlit run src/dashboard.py
+    ```
+
+---
+
+## How To Run Docker
+**If you have Docker installed, you can build and run the entire application with a single container:**
+```bash
+# Build the Image
+docker build -t stock-app .
+
+# Run Container (Exposes API & Dashboard)
+docker run -p 8000:8000 -p 8501:8501 stock-app
+```
