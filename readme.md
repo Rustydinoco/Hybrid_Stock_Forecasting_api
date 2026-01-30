@@ -59,7 +59,7 @@ The chart below demonstrates the model's performance on unseen data.
 * **Blue Line:** Actual Market Price.
 * **Red Line:** AI Prediction.
 
-![Backtest Result](LINK_GAMBAR_GRAFIK_YANG_BARUSAN_KAMU_UPLOAD.png)
+![Backtest Result](assets/backtest.png)
 
 **Observation:**
 Notice how the model (Red) successfully identifies the **major downtrend** starting around data point 40, aligning with the actual price drop (Blue). This proves the **RAF module** is providing correct context for market sentiment shifts.
