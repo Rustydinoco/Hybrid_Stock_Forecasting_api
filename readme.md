@@ -12,7 +12,7 @@
 
 The motivation behind this project lies in addressing the **Efficiency-Accuracy Trade-off** in modern Financial AI.
 
-With the rise of Large Language Models (LLMs) and deep transformers, there is a growing trend to apply massive, resource-intensive models to every problem. However, for numerical time-series data, this often leads to diminishing returns—where a slight increase in accuracy costs a massive amount of computational power.
+With the rise of Large Language Models (LLMs) and deep transformers, there is a growing trend to apply massive, resource intensive models to every problem. However, for numerical time series data, this often leads to diminishing returns—where a slight increase in accuracy costs a massive amount of computational power.
 
 **Research Gap:**
 There is a need to prove that **lightweight, interpretable models** can achieve accuracy levels comparable to heavy deep learning models, provided they are architected correctly with context-awareness.
