@@ -1,6 +1,6 @@
 # 📈 Hybrid AI Stock Predictor
 
-![Python](https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge&logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.13-blue?style=for-the-badge&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.95-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.22-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 ![XGBoost](https://img.shields.io/badge/XGBoost-Model-orange?style=for-the-badge)
@@ -88,6 +88,20 @@ Auto-generated API documentation built with FastAPI for endpoint testing.
 | **Frontend** | Streamlit | Interactive web-based dashboard. |
 | **Deployment** | Docker | Application containerization. |
 
+
+---
+
+## 🛠️ Prerequisites
+
+This project was built and tested using **Python 3.13**.
+To ensure stability and compatibility, we highly recommend using Python versions **3.10 - 3.13**.
+
+> **⚠️ Important:** Please **avoid using Python 3.14+** (or newer/experimental versions). Several data science libraries (such as `matplotlib` or `xgboost`) may not yet support these versions, which can cause installation errors.
+
+### Check your Python version:
+```bash
+python --version
+```
 
 ---
 
