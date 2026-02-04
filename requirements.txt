@@ -1,4 +1,4 @@
-sklearn
+scikit-learn
 xgboost
 pandas
 streamlit
@@ -9,4 +9,3 @@ pydantic
 numpy
 yfinance
 matplotlib
-os
